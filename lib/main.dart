@@ -32,15 +32,17 @@ class _MyAppState extends State<MyApp> {
   late ARAnchorManager arAnchorManager;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.transparent,
-      ),
-      body: ARView(
-        onARViewCreated: _onARViewCreated,
-        planeDetectionConfig: PlaneDetectionConfig.horizontal,
+    return MaterialApp(
+      home: Scaffold(
+        extendBodyBehindAppBar: true,
+        appBar: AppBar(
+          elevation: 0,
+          backgroundColor: Colors.transparent,
+        ),
+        body: ARView(
+          onARViewCreated: _onARViewCreated,
+          planeDetectionConfig: PlaneDetectionConfig.horizontal,
+        ),
       ),
     );
   }
@@ -82,7 +84,7 @@ class _MyAppState extends State<MyApp> {
       await _copyAssetModelsToDocumentDirectory();
       final newNode = ARNode(
         type: NodeType.fileSystemAppFolderGLB,
-        uri: 'wooden_table.glb',
+        uri: asset,
         scale: vector.Vector3(0.5, 0.5, 0.5),
         position: vector.Vector3(0.0, 0.0, 0.0),
         rotation: vector.Vector4(1.0, 0.0, 0.0, 0.0),
