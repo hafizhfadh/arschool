@@ -4,8 +4,6 @@
         android:label="arschool"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <uses-permission android:name="android.permission.CAMERA" />
-        <uses-feature   android:name="android.hardware.camera.ar"   android:required="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -29,6 +27,8 @@
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-feature   android:name="android.hardware.camera.ar"   android:required="true" />
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />

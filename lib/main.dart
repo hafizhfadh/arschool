@@ -16,7 +16,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
 
 void main() {
-  runApp(const Placeholder());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
