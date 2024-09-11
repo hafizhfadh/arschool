@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mikey - miniroyale.io - (Rigged)
+* source:	https://sketchfab.com/3d-models/mikey-miniroyaleio-rigged-e30fcb9517ee4c6483cacef78f0aef3b
+* author:	zct_33 (https://sketchfab.com/zct_33)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mikey - miniroyale.io - (Rigged)" (https://sketchfab.com/3d-models/mikey-miniroyaleio-rigged-e30fcb9517ee4c6483cacef78f0aef3b) by zct_33 (https://sketchfab.com/zct_33) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
